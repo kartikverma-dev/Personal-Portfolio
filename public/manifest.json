@@ -1,0 +1,17 @@
+{
+  "name": "Kartik Verma AI Portfolio",
+  "short_name": "Kartik Verma",
+  "description": "Next Generation AI Portfolio Website for Kartik Verma - BCA Student & IoT Developer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030014",
+  "theme_color": "#030014",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}

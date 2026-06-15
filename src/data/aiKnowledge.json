@@ -1,0 +1,77 @@
+{
+  "botName": "Kartik AI",
+  "version": "1.2.0",
+  "welcomeMessage": "Hi! I'm Kartik AI, a virtual assistant trained on Kartik Verma's skills, projects, and learning journey. Ask me anything about Kartik's BCA studies, IoT experiments, or internship at CredgeSoul AI!",
+  "fallbackMessage": "I am currently learning and expanding my skills in this area. If you want to connect with Kartik directly, feel free to contact him at KartikVerma0804@gmail.com.",
+  "suggestions": [
+    "Who is Kartik?",
+    "Why should I hire Kartik?",
+    "What are his skills?",
+    "Tell me about LUMOS RF & Rover",
+    "Where does he study?",
+    "Contact Details"
+  ],
+  "contacts": {
+    "email": "KartikVerma0804@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/kartik-verma-5459a5378",
+    "github": "https://github.com/kartikverma-dev",
+    "location": "New Delhi, India"
+  },
+  "knowledge": [
+    {
+      "keywords": ["who", "about", "kartik", "verma", "introduce", "biography", "profile"],
+      "question": "Who is Kartik?",
+      "answer": "Kartik Verma is a BCA student at IMS Ghaziabad (University Courses Campus), a technology enthusiast, an active learner, and an IoT experimenter. He is currently pursuing an internship at CredgeSoul AI, gaining exposure to professional workflows and software development."
+    },
+    {
+      "keywords": ["skills", "technologies", "languages", "know", "code", "tech", "stack", "tools"],
+      "question": "What are Kartik's skills?",
+      "answer": "Kartik is experienced with: Python, C, MySQL, HTML, CSS, Git, GitHub, Windows, Linux, and Kali Linux. His knowledge areas include Cybersecurity Fundamentals, Networking Basics, System Awareness, Responsive Web Design, and AI Productivity Tools. He is currently learning JavaScript, Backend, React, Next.js, ESP32, AI Engineering, and Embedded Systems."
+    },
+    {
+      "keywords": ["projects", "portfolio", "build", "created", "rover", "rf", "pin", "sensing"],
+      "question": "What projects has Kartik built?",
+      "answer": "Kartik's projects are focused on experimental development and learning:\n1. **LUMOS RF**: Experimental RF wireless sensing prototype using ESP8266/ESP32 concepts for motion detection.\n2. **LUMOS ROVER**: In-progress smart robotics platform built with ESP32/ESP8266 to study motor controls and telemetry.\n3. **LUMOS AI PIN**: Prototype AI wearable concept exploring voice-based queries and microcontrollers."
+    },
+    {
+      "keywords": ["contact", "email", "reach", "message", "write", "hire", "phone", "info"],
+      "question": "How can I contact Kartik?",
+      "answer": "You can contact Kartik Verma via email at **KartikVerma0804@gmail.com** or connect with him on LinkedIn at **https://www.linkedin.com/in/kartik-verma-5459a5378**. You can also send him a message using the Contact Form on the website!"
+    },
+    {
+      "keywords": ["github", "git", "repos", "repositories", "codebase"],
+      "question": "Where is Kartik's GitHub?",
+      "answer": "You can explore Kartik's learning code repositories, hardware firmwares, and notes on GitHub at **https://github.com/kartikverma-dev**."
+    },
+    {
+      "keywords": ["linkedin", "socials", "profile", "connect"],
+      "question": "Where is Kartik's LinkedIn?",
+      "answer": "You can check Kartik's professional timeline and connect with him on LinkedIn at **https://www.linkedin.com/in/kartik-verma-5459a5378**."
+    },
+    {
+      "keywords": ["resume", "cv", "pdf", "download", "downloading", "experience"],
+      "question": "Can I download Kartik's resume?",
+      "answer": "Yes, you can click the 'Download CV' buttons in the header, footer, or 'Available for Opportunities' section. He is seeking internships and student developer opportunities."
+    },
+    {
+      "keywords": ["education", "college", "degree", "bca", "university", "academic", "study", "ims", "ghaziabad"],
+      "question": "What is Kartik's education?",
+      "answer": "Kartik is currently pursuing a Bachelor of Computer Applications (BCA) at IMS Ghaziabad (University Courses Campus) for the batch 2025 - 2028."
+    },
+    {
+      "keywords": ["internship", "job", "work", "credgesoul", "experience", "office"],
+      "question": "Tell me about Kartik's work experience?",
+      "answer": "Kartik is currently pursuing an internship at CredgeSoul AI, gaining exposure to professional development workflows, AI-assisted tools, and software team coordination."
+    },
+    {
+      "keywords": ["interests", "aim", "future", "goals", "skating"],
+      "question": "What are Kartik's interests?",
+      "answer": "Kartik is interested in Artificial Intelligence, AI Agents, IoT systems, Computer Vision, Full Stack Development, and Embedded programming. For hobbies, he enjoys skating and has won school-level competitions."
+    },
+    {
+      "keywords": ["hire", "why", "recruit", "employ", "candidate", "choose"],
+      "question": "Why should I hire Kartik?",
+      "answer": "The fact that you're asking means my work has already sparked your interest, and I appreciate that."
+    }
+  ]
+}
