@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, ArrowUpRight, Cpu } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { personalInfo } from "@/data/portfolioData";
 
 const navItems = [
   { label: "Home", href: "#home" },
@@ -195,10 +196,10 @@ export default function Navbar() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.4 }}
-                className="flex flex-col gap-4 border-t border-white/5 pt-6"
+                className="flex flex-col gap-3 border-t border-white/5 pt-6"
               >
                 <p className="text-xs text-gray-500 font-mono text-center">
-                  kartik.verma@example.com
+                  {personalInfo.email}
                 </p>
                 <a
                   href="#contact"

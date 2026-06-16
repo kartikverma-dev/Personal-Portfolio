@@ -84,10 +84,22 @@ export default function Projects() {
                 className="relative glass-panel rounded-3xl overflow-hidden border-cyan-500/20 shadow-[0_0_30px_rgba(6,182,212,0.05)] bg-[#04011e] flex flex-col justify-between group hover:border-cyan-500/40 transition-colors duration-300"
               >
                 {/* Visual Accent bar */}
-                <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-cyan-500 to-purple-600" />
+                <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-cyan-500 to-purple-600 z-20" />
                 
+                {/* Project Image Banner */}
+                {project.image && (
+                  <div className="relative h-56 w-full overflow-hidden bg-gray-950">
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-70 group-hover:opacity-100"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#04011e] via-transparent to-transparent" />
+                  </div>
+                )}
+
                 {/* Body Content */}
-                <div className="p-8 space-y-6">
+                <div className="p-8 space-y-6 relative z-10">
                   <div className="flex justify-between items-start">
                     <span className="text-[10px] font-mono font-bold text-cyan-400 uppercase tracking-widest bg-cyan-400/5 px-2.5 py-1 rounded-full border border-cyan-500/20 shadow-[0_0_8px_rgba(6,182,212,0.1)]">
                       ★ {project.status}
@@ -199,8 +211,18 @@ export default function Projects() {
                   exit={{ opacity: 0, scale: 0.9 }}
                   transition={{ duration: 0.3, delay: Math.min(idx * 0.05, 0.3) }}
                   key={project.id}
-                  className="glass-panel rounded-2xl overflow-hidden glass-panel-hover flex flex-col justify-between"
+                  className="glass-panel rounded-2xl overflow-hidden glass-panel-hover flex flex-col justify-between group"
                 >
+                  {project.image && (
+                    <div className="relative h-44 w-full overflow-hidden bg-gray-950 border-b border-white/5">
+                      <img
+                        src={project.image}
+                        alt={project.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-60 group-hover:opacity-90"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-[#04011e]/90 to-transparent" />
+                    </div>
+                  )}
                   <div className="p-6 space-y-4">
                     <div className="flex justify-between items-center">
                       <span className="text-[9px] font-mono text-purple-400 font-bold uppercase bg-purple-400/5 px-2 py-0.5 rounded border border-purple-500/20">
@@ -296,6 +318,17 @@ export default function Projects() {
                 </button>
 
                 <div className="flex-1 overflow-y-auto p-8 pr-6 space-y-6 scrollbar-thin">
+                  {selectedProject.image && (
+                    <div className="relative h-64 w-full overflow-hidden rounded-2xl border border-white/10 bg-gray-950 mb-6">
+                      <img
+                        src={selectedProject.image}
+                        alt={selectedProject.title}
+                        className="w-full h-full object-cover"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-[#04011e]/70 to-transparent" />
+                    </div>
+                  )}
+
                   <div>
                     <span className="text-[10px] font-mono text-cyan-400 bg-cyan-400/5 px-2.5 py-1 rounded-full border border-cyan-500/20 font-bold uppercase tracking-widest">
                       {selectedProject.status}

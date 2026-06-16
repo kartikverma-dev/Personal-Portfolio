@@ -31,7 +31,7 @@
     {
       "keywords": ["projects", "portfolio", "build", "created", "rover", "rf", "pin", "sensing"],
       "question": "What projects has Kartik built?",
-      "answer": "Kartik's projects are focused on experimental development and learning:\n1. **LUMOS RF**: Experimental RF wireless sensing prototype using ESP8266/ESP32 concepts for motion detection.\n2. **LUMOS ROVER**: In-progress smart robotics platform built with ESP32/ESP8266 to study motor controls and telemetry.\n3. **LUMOS AI PIN**: Prototype AI wearable concept exploring voice-based queries and microcontrollers."
+      "answer": "Kartik's projects focus on experimental development, security auditing, and IoT networking:\n1. **LUMOS RF**: WiFi signal sensing platform using ESP8266 RSSI variations for motion detection (94% accuracy).\n2. **LUMOS ROVER**: Smart mobile robotics project leveraging ESP32 WebSockets for telemetry (under 50ms command delay).\n3. **LUMOS AI PIN**: Portable AI assistant node streaming audio queries over WiFi (1.8s response time).\n4. **Gemini Audit**: AI-driven vulnerability and secret scanner powered by Gemini API (1,000+ lines scanned in under 12s).\n5. **TinyNAS**: Headless Linux and Docker-based DIY network-attached storage solution (achieving 110 MB/s speed)."
     },
     {
       "keywords": ["contact", "email", "reach", "message", "write", "hire", "phone", "info"],
@@ -61,7 +61,7 @@
     {
       "keywords": ["internship", "job", "work", "credgesoul", "experience", "office"],
       "question": "Tell me about Kartik's work experience?",
-      "answer": "Kartik is currently pursuing an internship at CredgeSoul AI, gaining exposure to professional development workflows, AI-assisted tools, and software team coordination."
+      "answer": "Kartik is currently a Software Engineering Intern at CredgeSoul AI, where he builds responsive React frontends and integrates APIs, reducing query latency by 15%."
     },
     {
       "keywords": ["interests", "aim", "future", "goals", "skating"],

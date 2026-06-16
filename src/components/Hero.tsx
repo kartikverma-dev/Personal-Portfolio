@@ -137,16 +137,16 @@ export default function Hero() {
             
             <a
               href="#contact"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl glass-panel glass-panel-hover font-semibold text-sm text-gray-300 hover:text-white"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl border border-purple-500/30 bg-purple-500/10 hover:bg-purple-500 hover:text-white text-purple-400 text-sm font-bold shadow-lg shadow-purple-500/5 hover:shadow-purple-500/20 transition-all duration-300"
             >
               Contact Me
             </a>
             
             <button
               onClick={() => window.dispatchEvent(new CustomEvent("open-resume-preview"))}
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl border border-white/10 hover:border-cyan-500/50 hover:bg-cyan-500/5 text-gray-400 hover:text-cyan-400 text-sm font-medium transition-all duration-300 cursor-pointer"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl border border-cyan-500/35 bg-cyan-500/10 hover:bg-cyan-500 hover:text-white text-cyan-400 text-sm font-bold shadow-lg shadow-cyan-500/5 hover:shadow-cyan-500/20 transition-all duration-300 cursor-pointer"
             >
-              <Download className="w-4 h-4" /> Preview Resume
+              <Download className="w-4 h-4" /> Download / View CV
             </button>
           </motion.div>
         </div>
